@@ -24,11 +24,11 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
-const cypress = require("cypress");
+// const cypress = require("cypress");
 
-Cypress.Commands.add('loginToApplication', () => {
-    cy.visit('/')
-    cy.get('[id="user-name"]').type('standard_user')
-    cy.get('[id="password"]').type('secret_sauce')
-    cy.get('[name="login-button"]').click()
-})
+// Cypress.Commands.add('loginToApplication', () => {
+//     cy.visit('/')
+//     cy.get('[id="user-name"]').type('standard_user')
+//     cy.get('[id="password"]').type('secret_sauce')
+//     cy.get('[name="login-button"]').click()
+// })
